@@ -47,20 +47,6 @@ header{
                 }
             }
 
-            .contact{
-                a{
-                    font-size: 12px;
-                    color: #fff;
-                    padding: 16px 12px;
-                    border-radius: 20px;
-                    background: #2349FF;
-
-                    &:hover{
-                        background: #0f33e4;
-                        box-shadow: 2px 4px 20px rgba(0, 0, 0, 0.4);
-                }
-            }
-        }
     }
 
     @media (min-width: 768px){
