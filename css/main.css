@@ -39,10 +39,10 @@ header .logo {
 }
 header .logo p {
   font-weight: 700;
-  font-size: 30px;
+  font-size: 20px;
 }
 header .logo span {
-  font-size: 16px;
+  font-size: 12px;
 }
 header .header-btns {
   display: flex;
@@ -66,12 +66,12 @@ header .header-btns .lang img:hover {
   box-shadow: 2px 4px 30px rgba(0, 0, 0, 0.2);
 }
 header .header-btns .lang img {
-  width: 24px;
+  width: 20px;
   border: 1px solid #000;
   border-radius: 4px;
 }
 header .header-btns .contact a {
-  font-size: 14px;
+  font-size: 12px;
   color: #fff;
   padding: 16px 12px;
   border-radius: 20px;
@@ -80,6 +80,17 @@ header .header-btns .contact a {
 header .header-btns .contact a:hover {
   background: #0f33e4;
   box-shadow: 2px 4px 20px rgba(0, 0, 0, 0.4);
+}
+@media (min-width: 480px) {
+  header .logo p {
+    font-size: 30px;
+  }
+  header .logo span {
+    font-size: 16px;
+  }
+  header .header-btns .contact a {
+    font-size: 16px;
+  }
 }
 @media (min-width: 768px) {
   header .logo p {
