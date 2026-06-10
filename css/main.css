@@ -39,7 +39,10 @@ header .logo {
 }
 header .logo p {
   font-weight: 700;
-  font-size: 32px;
+  font-size: 30px;
+}
+header .logo span {
+  font-size: 16px;
 }
 header .header-btns {
   display: flex;
@@ -68,11 +71,11 @@ header .header-btns .lang img {
   border-radius: 4px;
 }
 header .header-btns .contact a {
-  font-size: 16px;
+  font-size: 14px;
   color: #fff;
   padding: 16px 12px;
   border-radius: 20px;
-  background: #2349ff;
+  background: #2349FF;
 }
 header .header-btns .contact a:hover {
   background: #0f33e4;
@@ -117,7 +120,7 @@ header .header-btns .contact a:hover {
   color: #fff;
   padding: 16px 12px;
   border-radius: 20px;
-  background: #2349ff;
+  background: #2349FF;
 }
 .hero .hero-content .contact a:hover {
   background: #0f33e4;
@@ -130,7 +133,7 @@ header .header-btns .contact a:hover {
 .hero .hero-img img {
   width: 100%;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
 @media (min-width: 768px) {
   .hero {
@@ -149,4 +152,4 @@ header .header-btns .contact a:hover {
   .hero .hero-img {
     width: 50%;
   }
-} /*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
