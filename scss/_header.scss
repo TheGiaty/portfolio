@@ -5,21 +5,22 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 10px;
     .logo{
         text-align: center;
         p{
             font-weight: 700;
-            font-size: 20px;
+            font-size: 24px;
         }
         span{
-            font-size: 12px;
+            font-size: 14px;
         }
     }
 
         .header-btns{
             display: flex;
             justify-content: flex-end;
-            gap: 15px;
+            gap: 10px;
 
             .lang{
                 display: flex;
