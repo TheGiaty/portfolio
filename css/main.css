@@ -81,7 +81,7 @@ header .header-btns .contact a:hover {
   background: #0f33e4;
   box-shadow: 2px 4px 20px rgba(0, 0, 0, 0.4);
 }
-@media (min-width: 480px) {
+@media (min-width: 580px) {
   header .logo p {
     font-size: 30px;
   }
