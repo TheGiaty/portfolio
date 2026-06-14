@@ -8,17 +8,32 @@
   </head>
   <body>
     <header class="container">
-      <div class="logo">
-        <p>Oleksandr</p>
-        <span>Frontend Developer</span>
-      </div>
-      <div class="header-btns">
-        <div class="lang">
-          <a class="selected" href="#"><img src="img/eng-lng.png" alt="" /></a>
-          <a href="index-pl.html"><img src="img/pl-lng.png" alt="" /></a>
-          <a href="index-ua.html"><img src="img/ua-lng.png" alt="" /></a>
+      <div class="header-main">
+        <div class="logo">
+          <p>Oleksandr</p>
+        </div>
+        <div class="header-btns">
+          <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#">Projects</a>
+            <a href="#">Contact</a>
+          </nav>
+          <div class="lang">
+            <a class="selected" href="#"
+              ><img src="img/eng-lng.png" alt=""
+            /></a>
+            <a href="index-pl.html"><img src="img/pl-lng.png" alt="" /></a>
+            <a href="index-ua.html"><img src="img/ua-lng.png" alt="" /></a>
+          </div>
         </div>
       </div>
+      <nav class="mobile-nav">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#">Projects</a>
+        <a href="#">Contact</a>
+      </nav>
     </header>
 
     <div class="hero container">
@@ -26,18 +41,102 @@
         <h1>Hello!👋</h1>
         <h1>I'm Oleksandr</h1>
         <p>
-          Aspiring Frontend Developer currently learning modern web development
-          technologies. My main focus is HTML, CSS, SCSS, and Git. I enjoy
-          building clean, responsive, and user-friendly websites. I continuously
-          improve my skills through personal projects and practical learning
-          while working toward becoming a professional Frontend Developer.
+          I create responsive and user-friendly websites using HTML, CSS, SCSS,
+          and Git.
         </p>
-        <div class="contact">
-          <a href="mailto:boriska03071997@gmail.com">Get in touch</a>
+        <p>
+          Currently improving my skills through personal projects and continuous
+          learning.
+        </p>
+        <div class="hero-btns">
+          <div class="hero-btn">
+            <a href="mailto:boriska03071997@gmail.com">Contact Me</a>
+          </div>
+          <div class="hero-btn">
+            <a href="projects.html">View Projects</a>
+          </div>
         </div>
       </div>
       <div class="hero-img">
         <img src="img/avatar.png" alt="" />
+      </div>
+    </div>
+
+    <div id="about" class="about container">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <div class="text-top">
+            <p>
+              I'm an aspiring Frontend Developer currently focused on building
+              modern and responsive websites.
+            </p>
+            <p>
+              For more than 5 years, I have been living and working in Poland,
+              which has helped me develop strong communication skills,
+              adaptability, and a disciplined approach to learning.
+            </p>
+            <p>
+              My main technologies are HTML, CSS, SCSS, and Git. I continuously
+              improve my skills through personal projects and practical
+              experience while expanding my knowledge of modern frontend
+              development.
+            </p>
+            <p>
+              My goal is to become a professional Frontend Developer and
+              contribute to creating high-quality web experiences.
+            </p>
+          </div>
+
+          <div class="text-bottom">
+            <p>📍 Warsaw, Poland</p>
+            <p>🌍 Ukrainian • Polish • English</p>
+          </div>
+        </div>
+        <div class="about-list">
+          <img src="img/html.png" alt="HTML" />
+          <img src="img/css.png" alt="CSS" />
+          <img src="img/scss.png" alt="SCSS" />
+          <img src="img/git.png" alt="Git" />
+          <img src="img/figma.png" alt="Figma" />
+        </div>
+      </div>
+    </div>
+
+    <div id="skills" class="skills-section container">
+      <h2>Skills</h2>
+      <div class="skills-content">
+        <div class="skill-card">
+          <h3>HTML</h3>
+          <p>- Semantic markup</p>
+          <p>- Responsive layouts</p>
+          <p>- Accessibility basics</p>
+        </div>
+        <div class="skill-card">
+          <h3>CSS</h3>
+          <p>- Flexbox</p>
+          <p>- Grid</p>
+          <p>- Animations</p>
+          <p>- Variables</p>
+        </div>
+        <div class="skill-card">
+          <h3>SCSS</h3>
+          <p>- Nesting</p>
+          <p>- Mixins</p>
+          <p>- Partials</p>
+        </div>
+        <div class="skill-card">
+          <h3>Git</h3>
+          <p>- Commits</p>
+          <p>- Branches</p>
+          <p>- GitHub</p>
+        </div>
+        <div class="skill-card">
+          <h3>Figma</h3>
+          <p>- Layout inspection</p>
+          <p>- Export assets</p>
+          <p>- Design implementation</p>
+        </div>
       </div>
     </div>
   </body>

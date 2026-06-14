@@ -19,21 +19,29 @@
             margin-top: 15px;
         }
 
-        .contact {
-            margin-top: 24px;
-            a {
-                font-size: 16px;
-                color: #fff;
-                padding: 16px 12px;
-                border-radius: 20px;
-                background: #2349FF;
-
-                &:hover {
-                    background: #0f33e4;
-                    box-shadow: 2px 4px 20px rgba(0, 0, 0, 0.4);
+        .hero-btns{
+            padding-top: 50px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            .hero-btn {
+            
+                    a {
+                        font-size: 16px;
+                        color: $secondaryColor;
+                        padding: 16px 12px;
+                        border-radius: 20px;
+                        background: $btnColor;
+            
+                        &:hover {
+                            background: $btnHoverColor;
+                            box-shadow: 2px 4px 20px rgba(0, 0, 0, 0.4);
+                        }
+                    }
                 }
-            }
         }
+
+        
 }
 
     

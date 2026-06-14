@@ -8,17 +8,30 @@
   </head>
   <body>
     <header class="container">
-      <div class="logo">
-        <p>Oleksandr</p>
-        <span>Frontend Developer</span>
-      </div>
-      <div class="header-btns">
-        <div class="lang">
-          <a href="index.html"><img src="img/eng-lng.png" alt="" /></a>
-          <a href="index-pl.html"><img src="img/pl-lng.png" alt="" /></a>
-          <a class="selected" href="#"><img src="img/ua-lng.png" alt="" /></a>
+      <div class="header-main">
+        <div class="logo">
+          <p>Oleksandr</p>
+        </div>
+        <div class="header-btns">
+          <nav>
+            <a href="#about">Про мене</a>
+            <a href="#skills">Мої навички</a>
+            <a href="#">Проєкти</a>
+            <a href="#">Контакти</a>
+          </nav>
+          <div class="lang">
+            <a href="index.html"><img src="img/eng-lng.png" alt="" /></a>
+            <a href="index-pl.html"><img src="img/pl-lng.png" alt="" /></a>
+            <a class="selected" href="#"><img src="img/ua-lng.png" alt="" /></a>
+          </div>
         </div>
       </div>
+      <nav class="mobile-nav">
+        <a href="#about">Про мене</a>
+        <a href="#skills">Мої навички</a>
+        <a href="#">Проєкти</a>
+        <a href="#">Контакти</a>
+      </nav>
     </header>
 
     <div class="hero container">
@@ -26,18 +39,102 @@
         <h1>Привіт!👋</h1>
         <h1>Я Олександр</h1>
         <p>
-          Початківець Frontend-розробник, який активно вивчає сучасну
-          веброзробку. Зараз я зосереджений на HTML, CSS, SCSS та Git. Мені
-          подобається створювати зрозумілі, адаптивні та зручні для користувачів
-          сайти. Постійно працюю над власними проєктами, вдосконалюю навички та
-          вивчаю нові технології, щоб розвиватися як Frontend-розробник.
+          Створюю адаптивні та зручні для користувачів вебсайти за допомогою
+          HTML, CSS, SCSS та Git.
         </p>
-        <div class="contact">
-          <a href="mailto:boriska03071997@gmail.com">Зв'язатися зі мною</a>
+        <p>
+          Постійно вдосконалюю свої навички через власні проєкти та практичне
+          навчання.
+        </p>
+        <div class="hero-btns">
+          <div class="hero-btn">
+            <a href="mailto:boriska03071997@gmail.com">Contact Me</a>
+          </div>
+          <div class="hero-btn">
+            <a href="projects.html">View Projects</a>
+          </div>
         </div>
       </div>
       <div class="hero-img">
         <img src="img/avatar.png" alt="" />
+      </div>
+    </div>
+
+    <div id="about" class="about container">
+      <h2>Про мене</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <div class="text-top">
+            <p>
+              Я Frontend Developer-початківець, який зосереджений на створенні
+              сучасних та адаптивних вебсайтів.
+            </p>
+            <p>
+              Понад 5 років проживаю та працюю в Польщі. За цей час я розвинув
+              навички комунікації, адаптивність і дисциплінований підхід до
+              навчання та розвитку.
+            </p>
+            <p>
+              Основними технологіями, з якими я працюю, є HTML, CSS, SCSS та
+              Git. Я постійно вдосконалюю свої навички через власні проєкти,
+              практичне навчання та вивчення сучасних підходів до
+              фронтенд-розробки.
+            </p>
+            <p>
+              Моя мета — побудувати кар'єру Frontend Developer та створювати
+              якісні й зручні вебрішення для користувачів.
+            </p>
+          </div>
+
+          <div class="text-bottom">
+            <p>📍 Warsaw, Poland</p>
+            <p>🌍 Ukrainian • Polish • English</p>
+          </div>
+        </div>
+        <div class="about-list">
+          <img src="img/html.png" alt="HTML" />
+          <img src="img/css.png" alt="CSS" />
+          <img src="img/scss.png" alt="SCSS" />
+          <img src="img/git.png" alt="Git" />
+          <img src="img/figma.png" alt="Figma" />
+        </div>
+      </div>
+    </div>
+
+    <div id="skills" class="skills-section container">
+      <h2>Мої навички</h2>
+      <div class="skills-content">
+        <div class="skill-card">
+          <h3>HTML</h3>
+          <p>- Semantic markup</p>
+          <p>- Responsive layouts</p>
+          <p>- Accessibility basics</p>
+        </div>
+        <div class="skill-card">
+          <h3>CSS</h3>
+          <p>- Flexbox</p>
+          <p>- Grid</p>
+          <p>- Animations</p>
+          <p>- Variables</p>
+        </div>
+        <div class="skill-card">
+          <h3>SCSS</h3>
+          <p>- Nesting</p>
+          <p>- Mixins</p>
+          <p>- Partials</p>
+        </div>
+        <div class="skill-card">
+          <h3>Git</h3>
+          <p>- Commits</p>
+          <p>- Branches</p>
+          <p>- GitHub</p>
+        </div>
+        <div class="skill-card">
+          <h3>Figma</h3>
+          <p>- Layout inspection</p>
+          <p>- Export assets</p>
+          <p>- Design implementation</p>
+        </div>
       </div>
     </div>
   </body>
