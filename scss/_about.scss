@@ -27,7 +27,15 @@
                     }
             }
             .text-bottom{
-                bottom: 0;
+                .bottom-info{
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    img {
+                            width: 18px;
+                        }
+                }
+                
             }
 
         }

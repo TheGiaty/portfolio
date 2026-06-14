@@ -1,6 +1,6 @@
 header{
     .header-main{
-        padding-top: 20px;
+        padding-top: 10px;
         margin: 0 auto;
         width: 95%;
         display: flex;
@@ -57,6 +57,7 @@ header{
     }
 
     .mobile-nav{
+        margin-top: 20px;
         display: flex;
         justify-content: center;
         gap: 20px;
