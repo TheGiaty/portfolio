@@ -380,5 +380,6 @@ footer .footer-container {
   margin-bottom: 30px;
   display: flex;
   justify-content: space-between;
+  gap: 20px;
   flex-wrap: wrap;
 }/*# sourceMappingURL=main.css.map */
