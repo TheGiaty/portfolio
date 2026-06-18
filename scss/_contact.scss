@@ -1,0 +1,35 @@
+.contact-section{
+    width: 90%;
+    text-align: center;
+    margin-top: 50px;
+    h2{
+        font-size: 42px;
+        
+    }
+
+    .contact-content{
+        margin-bottom: 40px;
+        p{
+            margin-top: 15px;
+        }
+    }
+
+    .my-contacts{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        
+        .contact-link{
+            &:hover {
+                    transform: translateY(-2px) scale(1.01);
+                    color: $btnColor;
+                }
+            a{
+            img{
+                width: 20px;
+            }
+        }
+        }
+        
+    }
+}

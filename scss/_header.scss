@@ -24,6 +24,7 @@ header{
         
                 nav {
                     display: none;
+                    
                 }
         
                 .lang {
@@ -81,11 +82,16 @@ header{
             
                     nav {
                         display: block;
-            
                         a {
                             margin-left: 20px;
+        
+                            &:hover {
+                                    border-bottom: 3px solid $primaryColor;
+                                }
+                            
                         }
-                    }
+                        
+}
             
                     .lang {
                         img {

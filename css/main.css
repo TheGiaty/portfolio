@@ -94,6 +94,9 @@ header .mobile-nav {
   header .header-main .header-btns nav a {
     margin-left: 20px;
   }
+  header .header-main .header-btns nav a:hover {
+    border-bottom: 3px solid #ffefb3;
+  }
   header .header-main .header-btns .lang img {
     width: 32px;
   }
@@ -128,6 +131,7 @@ header .mobile-nav {
   gap: 20px;
 }
 .hero .hero-content .hero-btns .hero-btn a {
+  display: inline-block;
   font-size: 16px;
   color: #013e37;
   padding: 16px 12px;
@@ -135,6 +139,7 @@ header .mobile-nav {
   background: #F4C95D;
 }
 .hero .hero-content .hero-btns .hero-btn a:hover {
+  transform: translateY(-2px);
   background: #FFD86E;
   box-shadow: 2px 4px 20px rgba(0, 0, 0, 0.4);
 }
@@ -305,7 +310,6 @@ header .mobile-nav {
   -o-object-position: center;
      object-position: center;
   width: 100%;
-  height: 100%;
 }
 .projects-section .projects-content .project-card h3 {
   margin-top: 15px;
@@ -329,6 +333,7 @@ header .mobile-nav {
   background: #F4C95D;
 }
 .projects-section .projects-content .project-card .links a:hover {
+  transform: translateY(-2px);
   background: #FFD86E;
   box-shadow: 2px 4px 20px rgba(0, 0, 0, 0.4);
 }
@@ -336,4 +341,44 @@ header .mobile-nav {
   .projects-section .projects-content {
     grid-template-columns: repeat(2, 1fr);
   }
+}
+
+.contact-section {
+  width: 90%;
+  text-align: center;
+  margin-top: 50px;
+}
+.contact-section h2 {
+  font-size: 42px;
+}
+.contact-section .contact-content {
+  margin-bottom: 40px;
+}
+.contact-section .contact-content p {
+  margin-top: 15px;
+}
+.contact-section .my-contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.contact-section .my-contacts .contact-link:hover {
+  transform: translateY(-2px) scale(1.01);
+  color: #F4C95D;
+}
+.contact-section .my-contacts .contact-link a img {
+  width: 20px;
+}
+
+footer hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-color: #2D6A63;
+}
+footer .footer-container {
+  width: 90%;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }/*# sourceMappingURL=main.css.map */

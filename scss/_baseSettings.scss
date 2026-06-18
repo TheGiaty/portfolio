@@ -6,7 +6,6 @@ $btnColor:#F4C95D;
 $btnHoverColor:#FFD86E;
 $borderColor: #2D6A63;
 
-
 body {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
@@ -37,4 +36,19 @@ a {
 
 img {
     max-width: 100%;
+}
+
+@mixin btn {
+    display: inline-block;
+    font-size: 16px;
+    color: $secondaryColor;
+    padding: 16px 12px;
+    border-radius: 20px;
+    background: $btnColor;
+
+    &:hover {
+        transform: translateY(-2px);
+        background: $btnHoverColor;
+        box-shadow: 2px 4px 20px rgba(0, 0, 0, 0.4);
+    }
 }
