@@ -360,11 +360,20 @@ header .mobile-nav {
 .contact-section .my-contacts {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 10px;
+}
+.contact-section .my-contacts .contact-link {
+  width: -moz-fit-content;
+  width: fit-content;
 }
 .contact-section .my-contacts .contact-link:hover {
   transform: translateY(-2px) scale(1.01);
-  color: #F4C95D;
+}
+.contact-section .my-contacts .contact-link a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 .contact-section .my-contacts .contact-link a img {
   width: 20px;
